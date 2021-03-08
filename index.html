@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<center><h1 class="titulo">Numero maximo</h1></center>
+	<link rel="stylesheet" type="text/css" href="estilo2.css">
+</head>
+<body  >
+	<div class="cuadro"></div>
+	<input type="text" name="espacio1" id="espacio1" class="espacio1">
+		<input type="button" name="boton1" value="ingresar" class="boton1" onclick="ingre();">
+	<input type="text" name="espacio2" id="espacio2" class="espacio2">
+		<input type="button" name="boton2" value="maximo" class="boton2" onclick="maximo();">
+<script >
+	var vec=[];
+function ingre(){
+
+		var tamaño=vec.length; 
+	if(tamaño<5){
+
+
+	var espacio1=document.getElementById("espacio1").value;
+		vec.push(espacio1);
+		console.log(vec);
+		console.log(tamaño);
+		}
+		else
+		{
+			alert("NO SE PUEDEN INGRESAR MAS DE 5 NUMEROS");
+		}
+
+}
+function maximo(){
+	i=0;
+	while(i<5){ 
+i=i+1;
+if (vec[i]>=vec[0]&&vec[i]>=vec[1]&&vec[i]>=vec[2]&&vec[i]>=vec[3]&&vec[i]>=vec[4]) {   
+
+			document.getElementById("espacio2").value=vec[i];
+
+i=i+5;
+}	
+else
+{
+
+}
+}
+}
+</script>
+
+</html>  

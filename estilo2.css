@@ -1,0 +1,46 @@
+
+.titulo{
+		position: absolute;
+
+	top: 10%;
+	left: 39%;
+}
+.cuadro{
+		
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	top: 10%;
+	left: 15%;
+  border: black 5px solid;
+}
+.espacio1{
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	width: 26%;
+	 border: black 5px dashed;
+	text-align:center;
+	
+}
+.boton1{
+		position: absolute;
+	left: 60%;
+	top: 40%;
+	  border: white 5px outset;
+}
+.espacio2{
+	position: absolute;
+	left: 30%;
+	top: 60%;
+	width: 26%;
+	 border: black 5px dashed;
+	text-align:center;
+	
+}
+.boton2{
+		position: absolute;
+	left: 60%;
+	top: 60%;
+	  border: white 5px outset;
+}
